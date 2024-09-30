@@ -1,1 +1,7 @@
-spring.application.name=what-your-favorite-charcter-would-say
+spring:
+  application:
+    name: what-your-favorite-charcter-would-say
+
+  ai:
+    openai:
+      api-key: ${OPENAPI_KEY}

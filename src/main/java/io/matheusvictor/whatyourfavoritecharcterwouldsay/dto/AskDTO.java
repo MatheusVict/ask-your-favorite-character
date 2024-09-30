@@ -1,4 +1,6 @@
 package io.matheusvictor.whatyourfavoritecharcterwouldsay.dto;
 
-public record AskDTO() {
+public record AskDTO(
+        String question
+) {
 }
