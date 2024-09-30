@@ -18,7 +18,7 @@ public class Controller {
 
     @GetMapping
     byte[] askToGPT(@RequestBody AskDTO message) {
-        return this.chatGPTService.sendMessage(message.question());
+        return this.chatGPTService.sendMessage(message);
 
     }
 }
