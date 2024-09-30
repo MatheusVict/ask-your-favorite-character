@@ -1,6 +1,7 @@
 package io.matheusvictor.whatyourfavoritecharcterwouldsay.dto;
 
 public record AskDTO(
-        String question
+        String question,
+        String character
 ) {
 }
